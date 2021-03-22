@@ -1,0 +1,12 @@
+#lang racket
+
+(define (>= x y)
+  (or (> x y)(= x y)))
+
+print(>= 4 3)
+
+(define (b x y)
+  (not(< x y)))
+
+print(b 4 3)
+
